@@ -2,6 +2,8 @@
   border: 5px solid black;
   border-radius: 20px;
   background: floralwhite;
+  margin: 0 240px;
+  min-width: 795px;
 }
 
 .wrapper {
@@ -22,12 +24,14 @@
   font-size: 50px;
   text-align: center;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .tag {
   font-size: 40px;
   font-weight: 500;
   color: rgba(23, 23, 24, 0.511);
+  margin-bottom: 10px;
 }
 
 .location {
@@ -40,12 +44,11 @@
   border-top: 4px solid gray;
   border-radius: 0 0 20px 20px;
   display: flex;
-  justify-content: space-between;
   background-color: azure;
 }
 
 .item {
-  width: 180px;
+  width: 100%;
   text-align: center;
   color: black;
   font-size: 40px;

@@ -1,0 +1,14 @@
+.container {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.caption {
+  background: black;
+  color: aliceblue;
+}
+
+.cells {
+  border: 2px solid black;
+}
