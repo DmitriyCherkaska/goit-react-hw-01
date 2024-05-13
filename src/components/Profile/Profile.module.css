@@ -1,3 +1,52 @@
 .container {
+  border: 5px solid black;
   border-radius: 20px;
+  background: floralwhite;
+}
+
+.wrapper {
+  padding: 30px 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.person {
+  border-radius: 50%;
+  background: black;
+  margin-bottom: 25px;
+}
+
+.text {
+  color: black;
+  font-size: 36px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.stats {
+  border-top: 2px solid gray;
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: azure;
+}
+
+.item {
+  width: 180px;
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  background-color: azure;
+}
+
+.point {
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+}
+
+.numbers {
+  font-weight: 700;
 }
