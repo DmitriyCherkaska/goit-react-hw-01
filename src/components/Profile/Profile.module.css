@@ -19,17 +19,28 @@
 
 .text {
   color: black;
-  font-size: 36px;
+  font-size: 50px;
   text-align: center;
   font-weight: 700;
 }
 
+.tag {
+  font-size: 40px;
+  font-weight: 500;
+  color: rgba(23, 23, 24, 0.511);
+}
+
+.location {
+  font-size: 40px;
+  font-weight: 500;
+  color: rgba(23, 23, 24, 0.511);
+}
+
 .stats {
-  border-top: 2px solid gray;
+  border-top: 4px solid gray;
   border-radius: 0 0 20px 20px;
   display: flex;
   justify-content: space-between;
-  padding: 30px;
   background-color: azure;
 }
 
@@ -39,6 +50,12 @@
   color: black;
   font-size: 40px;
   background-color: azure;
+  padding: 30px 30px;
+  border-radius: 0 0 20px 20px;
+}
+
+.item:not(:last-child) {
+  border-right: 4px solid gray;
 }
 
 .point {

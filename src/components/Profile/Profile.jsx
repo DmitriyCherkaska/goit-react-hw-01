@@ -16,8 +16,8 @@ const Profile = ({ name, tag, location, image, stats }) => {
           height={"270"}
         />
         <p className={some.text}>{name}</p>
-        <p>@{tag}</p>
-        <p>{location}</p>
+        <p className={some.tag}>@{tag}</p>
+        <p className={some.location}>{location}</p>
       </div>
       <ul className={some.stats}>
         <li className={some.item}>
