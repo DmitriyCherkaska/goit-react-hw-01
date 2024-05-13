@@ -1,7 +1,7 @@
 .container {
   table-layout: fixed;
   border-collapse: collapse;
-  min-width: 700px;
+  min-width: 795px;
   margin: 0 auto;
 }
 
@@ -14,4 +14,14 @@
 
 .cells {
   border: 2px solid black;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f5eef3;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #afabaf;
 }
