@@ -1,8 +1,12 @@
+import some from "./Profile.module.css";
+
+console.log("some :>>", some);
+
 const Profile = ({ name, tag, location, image, stats }) => {
   const { followers, views, likes } = stats;
 
   return (
-    <div className="css.container">
+    <div className={some.container}>
       <div>
         <img src={image} alt="User avatar" />
         <p>{name}</p>
