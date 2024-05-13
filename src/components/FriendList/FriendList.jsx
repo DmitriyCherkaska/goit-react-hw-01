@@ -1,9 +1,13 @@
+import some from "./FriendList.module.css";
+
+// console.log("some :>>", some);
+
 const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
     <div>
-      <img src={avatar} alt="Avatar" width="48" />
-      <p>{name}</p>
-      <p style={{ color: isOnline ? "green" : "red" }}>
+      <img src={avatar} alt="Avatar" width="90" />
+      <p className={some.name}>{name}</p>
+      <p className={some.status} style={{ color: isOnline ? "green" : "red" }}>
         {isOnline ? "Online" : "Offline"}
       </p>
     </div>
@@ -12,9 +16,9 @@ const FriendListItem = ({ avatar, name, isOnline }) => {
 
 const FriendList = ({ friends }) => {
   return (
-    <ul>
+    <ul className={some.list}>
       {friends.map((friend) => (
-        <li key={friend.id}>
+        <li className={some.item} key={friend.id}>
           <FriendListItem
             avatar={friend.avatar}
             name={friend.name}
