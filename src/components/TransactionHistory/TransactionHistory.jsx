@@ -4,10 +4,10 @@ const TransactionHistory = ({ items }) => {
   return (
     <table className={some.container}>
       <thead className={some.caption}>
-        <tr>
-          <th>Type</th>
-          <th>Amount</th>
-          <th>Currency</th>
+        <tr className={some.wrapper}>
+          <th className={some.cells}>Type</th>
+          <th className={some.cells}>Amount</th>
+          <th className={some.cells}>Currency</th>
         </tr>
       </thead>
 
