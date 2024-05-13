@@ -2,14 +2,13 @@ const Profile = ({ name, tag, location, image, stats }) => {
   const { followers, views, likes } = stats;
 
   return (
-    <div>
+    <div className="css.container">
       <div>
         <img src={image} alt="User avatar" />
         <p>{name}</p>
         <p>@{tag}</p>
         <p>{location}</p>
       </div>
-
       <ul>
         <li>
           <span>Followers</span>
